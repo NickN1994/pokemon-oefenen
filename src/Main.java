@@ -11,6 +11,7 @@ public class Main {
         Typhlosion.eats();
         attack.printAttack();
         Blastoise.attackMove();
+        attackTwo.printAttackWater();
 
     }
 
