@@ -72,7 +72,7 @@ public class attack {
 
             for (attack attack : attacks) {
                 System.out.println("Attackname: " + attack.getAttackName() + " Damage: " + attack.getDamage());
-                System.out.println(attack.getAttackName());
+//                System.out.println(attack.getAttackName());
             }
 
 //            Deze wordt niet geprint omdat de lijst niet wordt opgehaald?

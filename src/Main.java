@@ -8,9 +8,13 @@ public class Main {
 
 
         Charizard.eats();
+        System.out.println("\n");
         Typhlosion.eats();
+        System.out.println("\n");
         attack.printAttack();
+        System.out.println("\n");
         Blastoise.attackMove();
+        System.out.println("\n");
         attackTwo.printAttackWater();
 
     }
