@@ -76,11 +76,20 @@ public class attack {
             }
 
 //            Deze wordt niet geprint omdat de lijst niet wordt opgehaald?
-//        System.out.println(attack.getAttackname());
+//        System.out.println(attack.getAttackName());
     }
 //Overige vragen
 // Waarom kan ik de getName uit de Pokemon class niet benoemen hierboven in de for loop
+//    omdat de fire class een subclass is van Pokemon (super class)
+
 //    Waarom moet ik in de Main attack.printAttack(); schrijven en waarom kan ik daar niet Charizard.printAttack();
+
+// Wanneer geef je de List mee als parameter en wanneer als argument ?
+
+//    Hoe kan ik een attack uit de lijst uit deze class ophalen in de pokemon of water class bijvoorbeeld
+//    met een get.AttackName();
+
+//    Wanneer parameter gebruiken en wanneer als argument
 //
 }
 

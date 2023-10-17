@@ -39,4 +39,8 @@ public class Pokemon{
     public void eats(){
 
     }
+
+    public void attackMove(){
+
+    }
 }
