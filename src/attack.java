@@ -70,17 +70,27 @@ public class attack {
         attacks.add(fire3);
         attacks.add(fire4);
 
+        System.out.println("Choose you attack ");
+
             for (attack attack : attacks) {
                 System.out.println("Attackname: " + attack.getAttackName() + " Damage: " + attack.getDamage());
 //                System.out.println(attack.getAttackName());
             }
 
+        System.out.println();
+
 //            Deze wordt niet geprint omdat de lijst niet wordt opgehaald?
 //        System.out.println(attack.getAttackName());
     }
+
+
+
+
 //Overige vragen
 // Waarom kan ik de getName uit de Pokemon class niet benoemen hierboven in de for loop
 //    omdat de fire class een subclass is van Pokemon (super class)
+
+//    Wanneer gebruik je boven als variable List<attack> attacks = new ArrayList();
 
 //    Waarom moet ik in de Main attack.printAttack(); schrijven en waarom kan ik daar niet Charizard.printAttack();
 

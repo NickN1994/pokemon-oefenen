@@ -1,4 +1,4 @@
-public class Water extends Pokemon{
+public class Water extends Pokemon {
 
     private int defencePower;
     private boolean hasTrainer;
@@ -29,5 +29,13 @@ public class Water extends Pokemon{
     @Override
     public void attackMove() {
         System.out.println(getName() + " wants to attack");
+    }
+
+    public void wild() {
+        if (!hasTrainer) {
+            System.out.println("it's a wild " + getName());
+        } else {
+            System.out.println("we can't catch " + getName());
+        }
     }
 }

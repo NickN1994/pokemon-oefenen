@@ -6,12 +6,17 @@ public class attackTwo {
     private String attackName;
     private int damage;
 
+
+
+
+
 //    private List<attackTwo> waterAttackList;
     private List<attack> attacks;
 
     public attackTwo(String attackName, int damage) {
         this.attackName = attackName;
         this.damage = damage;
+
     }
 
     public String getAttack() {
@@ -30,7 +35,8 @@ public class attackTwo {
         this.damage = damage;
     }
 
-//    public List<attackTwo> getWaterAttackList() {
+
+    //    public List<attackTwo> getWaterAttackList() {
 //        return waterAttackList;
 //    }
 //
@@ -70,6 +76,7 @@ public class attackTwo {
         attack water2 = new attack("Hydro Pump", 110);
         attack water3 = new attack("Water gun", 40);
         attack water4 = new attack("Blizzard", 100);
+
 
         attacks.add(water1);
         attacks.add(water2);

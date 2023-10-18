@@ -43,4 +43,12 @@ public class Pokemon{
     public void attackMove(){
 
     }
+
+    public void chooseYou(){
+        System.out.println("I choose you " + getName() + " which is level " + getLevel());
+    }
+
+
+
+
 }
